@@ -15,5 +15,10 @@ int main(){
     char grade = 'C';     // single character
     char name[] = "Joao"; // array of characters
 
+    printf("Hello %s,\n", name);
+    printf("You are %d years old!\n", age);
+    printf("Your aavarage grade is %c\n", grade);
+    printf("Your gpa is %f\n",gpa);
+
     return 0;
-}
+} 
