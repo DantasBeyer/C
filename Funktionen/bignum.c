@@ -1,3 +1,6 @@
+// Hier wird gezeigt anhand des Vergleichs zweiter Zahlen, wie Funktionen Werte zurückgeben.
+
+
 #include <stdio.h>
 
 int bignum(int a, int b)
