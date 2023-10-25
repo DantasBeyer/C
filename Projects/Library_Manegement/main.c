@@ -15,7 +15,6 @@ int main()
 {
     struct library lib[100];
     char book_name[100];
-
     int i, j, count;
     i = 0;
     j = 0;
@@ -40,9 +39,9 @@ int main()
             printf("\nEnter the author name: ");
             scanf("%s", lib[i].author_name);
             printf("\nEnter the number of the pages: ");
-            scanf("%s", &lib[i].no_of_pages);
-            printf("\nEnter the cos of the book: ");
-            scanf("%s", &lib[i].cost);
+            scanf("%d", &lib[i].no_of_pages);
+            printf("\nEnter the cost of the book: ");
+            scanf("%f", &lib[i].cost);
 
             count = count + 1;
             i = i + 1;
@@ -64,8 +63,15 @@ int main()
                     printf("\nThe cost of the book is: %f\n\n", lib[i].cost);
                 }
             }
-        default:
             break;
+
+        case 3:
+            printf("\nTotal number of the books in the library are: %d\n\n", count);
+            break;
+        case 4:
+            exit(0);
+        default:
+            printf("invalid number entered\n\n");
         }
     }
 }
