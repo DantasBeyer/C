@@ -1,5 +1,3 @@
-// Hier wird die Initialisierung meherer Zählvariablen innerhalb des Schleifenkopfes.
-
 #include <stdio.h>
 
 int main(void)
